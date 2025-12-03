@@ -1,0 +1,26 @@
+[workspace]
+authors = ["Anfeng Li <anfeng.li@cern.ch>"]
+channels = ["conda-forge"]
+name = "scientific-python-ecosystem-tutorial"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.3.5,<3"
+scipy = ">=1.16.3,<2"
+matplotlib = ">=3.10.8,<4"
+seaborn = ">=0.13.2,<0.14"
+pandas = ">=2.3.3,<3"
+scikit-learn = ">=1.7.2,<2"
+py-xgboost = ">=3.1.2,<4"
+sympy = ">=1.14.0,<2"
+iminuit = ">=2.32.0,<3"
+jupyter = ">=1.1.1,<2"
+uproot = ">=5.6.8,<6"
+awkward-pandas = ">=2023.8.0,<2024"
+mplhep = ">=0.4.1,<0.5"
+root = ">=6.36.6,<7"
+isort = ">=7.0.0,<8"
+black = ">=25.1.0,<26"
